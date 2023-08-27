@@ -6,3 +6,7 @@ url: https://chanwutk.github.io/ucbhciprelim
 
 aux_links:
   Github: https://github.com/chanwutk/ucbhciprelim
+
+collections:
+  papers:
+    output: false
