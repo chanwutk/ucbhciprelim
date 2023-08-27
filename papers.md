@@ -69,7 +69,12 @@ layout: default
 }
 
 .category-entry:hover {
-  font-weight: bold;
+  text-decoration: underline;
+}
+
+.category-entry:active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .selected-entry {
