@@ -1,0 +1,10 @@
+<h3>{{include.field}} <span class="counter">({{include.entries | size}})</span></h3>
+<div class="category-container">
+  {% for entry in include.entries %}
+    {% assign e = entry | split: '___' %}
+    <div class="category-entry">
+      <span class="category-text">{{e[1]}}</span>
+      <span class="counter">({{e[0] | to_integer}})</span>
+    </div>
+  {% endfor %}
+</div>
