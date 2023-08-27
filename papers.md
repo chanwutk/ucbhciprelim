@@ -46,17 +46,26 @@ layout: default
 .category-container {
   height: 300px;
   overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.category-container::-webkit-scrollbar {
+  width: 0 !important;
 }
 
 .filter-pannel {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .category-entry {
-  margin-right: 10px;
+  padding-right: 20px;
   cursor: pointer;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 
 .category-entry:hover {
