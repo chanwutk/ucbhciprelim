@@ -9,3 +9,6 @@ nav_order: 2
 
 ## 2022
 - Meeting Notes ([Notion](https://chanwutk.notion.site/2022-HCI-Prelim-Study-Group-2476bc1e8a6b4413b1d69d4fb498a953?pvs=4))
+
+## 2021
+- Shm's [Notes](https://shmothy.wordpress.com/2023/05/26/my-post-prelim-notes-2-years-later)
