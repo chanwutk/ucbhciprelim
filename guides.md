@@ -1,6 +1,7 @@
 ---
 title: Guides/Notes
 layout: default
+nav_order: 2
 ---
 # Guides and Notes from Previous Years' Students [🚧 WIP]
 ## 2023

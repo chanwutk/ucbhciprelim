@@ -1,6 +1,7 @@
 ---
 title: Papers
 layout: default
+nav_order: 1
 ---
 <style>
 .title {
