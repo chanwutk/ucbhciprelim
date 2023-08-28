@@ -107,7 +107,11 @@ nav_order: 1
 }
 </style>
 
-Official Reading List: [Here](https://docs.google.com/document/d/1wJOSWdT2kC-03HZuhzuXuILhHKOGhtXH4JrvQmsvR4w/edit)
+Official Reading Lists:
+[2002](https://people.eecs.berkeley.edu/~jfc/hci-prelim-syllabus.html),
+[2015](http://people.eecs.berkeley.edu/~bjoern/prelims),
+[2019](https://hci.berkeley.edu/prelims/),
+[2023](https://docs.google.com/document/d/1wJOSWdT2kC-03HZuhzuXuILhHKOGhtXH4JrvQmsvR4w/edit).
 
 {% assign papers = site.papers %}
 
