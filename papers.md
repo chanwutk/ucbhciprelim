@@ -343,7 +343,7 @@ function update (papers, selected) {
   filtered.forEach(paper => decades.add(paper.year.substring(0, 3)));
 
   document.querySelectorAll('.decade-container').forEach(decade => {
-    const decadeId = decade.id.split('-')[1];
+    const decadeId = decade.id.slice(0, -2);
     const elements = [decade, ...decade.querySelectorAll('h1,h2')];
     elements.forEach(decades.has(decadeId) ? show : hide);
   });
