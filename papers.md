@@ -238,6 +238,8 @@ Official Reading List: [Here](https://docs.google.com/document/d/1wJOSWdT2kC-03H
   </div>
 {% endfor %}
 
+Tags are modified from [Samantha Robertson](https://www.samantha-robertson.com/)s' Notes.
+
 <script>
 const _papers = [
   {% for paper in papers %}

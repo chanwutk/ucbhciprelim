@@ -9,3 +9,5 @@ nav_order: 0
 We created this website to help students prepare for the Human-Computer Interaction (HCI) preliminary exam at UC Berkeley.
 We hope that this website will be a useful resource for students to learn about the exam and to prepare for it.
 This guides contain the exam reading list, previous years' questions, and study guides/nodes from previous students (Coming Soon).
+
+by [Chanwut (Mick) Kittivorawong](https://chanwutk.github.io).
