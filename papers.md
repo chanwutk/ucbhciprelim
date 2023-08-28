@@ -106,9 +106,8 @@ layout: default
 }
 </style>
 
-Official Reading List: [https://docs.google.com/document/d/1wJOSWdT2kC-03HZuhzuXuILhHKOGhtXH4JrvQmsvR4w/edit](https://docs.google.com/document/d/1wJOSWdT2kC-03HZuhzuXuILhHKOGhtXH4JrvQmsvR4w/edit)
+Official Reading List: [Here](https://docs.google.com/document/d/1wJOSWdT2kC-03HZuhzuXuILhHKOGhtXH4JrvQmsvR4w/edit)
 
-**Todo:** Add Filtering Interaction
 {% assign papers = site.papers %}
 
 <div class="filter-pannel">
