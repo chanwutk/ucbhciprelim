@@ -4,8 +4,7 @@ layout: default
 ---
 <style>
 .title {
-  padding: 0px;
-  margin: 0px;
+  margin-bottom: 0px !important;
 }
 
 .title-year {
@@ -19,12 +18,21 @@ layout: default
   /* background-color: #007bff; */
   padding: 0.1rem 0.4rem;
   /* margin-left: 0.2rem; */
+  margin-top: 0.3rem;
   margin-right: 0.4rem;
   border-radius: 0.2rem;
 }
 
 .paper-detail {
   margin-left: 5px;
+}
+
+.paper-entry-content {
+  margin-top: 5px;
+}
+
+.paper-entry-citation {
+  color: grey;
 }
 
 .decade-papers {
@@ -97,6 +105,8 @@ layout: default
   }
 }
 </style>
+
+Official Reading List: [https://docs.google.com/document/d/1wJOSWdT2kC-03HZuhzuXuILhHKOGhtXH4JrvQmsvR4w/edit](https://docs.google.com/document/d/1wJOSWdT2kC-03HZuhzuXuILhHKOGhtXH4JrvQmsvR4w/edit)
 
 **Todo:** Add Filtering Interaction
 {% assign papers = site.papers %}
@@ -209,7 +219,18 @@ layout: default
             <div class="tag btn-primary">{{ tag }}</div>
             {% endfor %}
           </div>
-          {{paper.content}}
+          <div class="paper-entry-content">
+            {% assign idx = 0 %}
+            {% for link in paper.links %}
+              {% if idx > 0 %}
+                &ensp;|&ensp;
+              {% endif %}
+              <a href="{{link}}">{{paper.link_descriptions[idx]}}</a>
+              {% assign idx = idx | plus: 1 %}
+            {% endfor %}
+            &ensp;
+            <span class="paper-entry-citation">{{paper.citation}}</span>
+          </div>
         </div>
       </div>
       {% endfor %}
