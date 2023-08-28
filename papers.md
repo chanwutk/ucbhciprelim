@@ -242,7 +242,9 @@ Official Reading Lists:
   </div>
 {% endfor %}
 
-Tags are modified from [Samantha Robertson](https://www.samantha-robertson.com/)'s Notes.
+Tags are modified from [Samantha Robertson](https://www.samantha-robertson.com/)'s notes.
+
+The paper filtering tool is inspired by [Dominik Moritz](https://www.domoritz.de)'s [publications](https://www.domoritz.de/publications/) page.
 
 <script>
 const _papers = [
