@@ -197,7 +197,7 @@ Official Reading List: [Here](https://docs.google.com/document/d/1wJOSWdT2kC-03H
   sort: 'name'
 %}
 {% for paper_grouped in papers_grouped %}
-  <div id="decade-{{paper_grouped.name}}" class="d-flex decade-container">
+  <div id="{{paper_grouped.name}}0s" class="d-flex decade-container">
     <h2 class="decade-left-header">{{paper_grouped.name}}0s</h2>
     <div class="decade-papers">
       <h1 class="decade-top-header">{{paper_grouped.name}}0s</h1>
