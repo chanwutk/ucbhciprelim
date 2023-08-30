@@ -2,6 +2,7 @@
 title: Papers
 layout: default
 nav_order: 1
+last_modified_date: August 29, 2023
 ---
 <style>
 .title {
@@ -11,6 +12,10 @@ nav_order: 1
 .title-year {
   color: grey;
   font-weight: normal;
+}
+.title-edit {
+  font-size: .65em;
+  opacity: 0.3;
 }
 
 .tag {
@@ -212,6 +217,9 @@ Official Reading Lists:
         <h2 class="title">
           <span class="title-year">{{paper.year}}</span>
           {{paper.title}}
+          <a href="https://github.com/chanwutk/ucbhciprelim/edit/main/_papers/{{paper.name}}">
+            <svg class='title-edit' xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>
+          </a>
         </h2>
         <div class="paper-detail">
           {{paper.authors[0]}}
@@ -242,8 +250,9 @@ Official Reading Lists:
   </div>
 {% endfor %}
 
-Tags are modified from [Samantha Robertson](https://www.samantha-robertson.com/)'s notes.
+Add new paper [Here](https://github.com/chanwutk/ucbhciprelim/new/main/?filename=_papers/year-paper.md&value=---%0Atitle: <paper name>%0Alayout: default%0Ayear: <year>%0Aauthors: [ <author1>, <author2>, ... ]%0Atags: [ <tag1>, <tag2>, ... ]%0Acitation: <citation>%0Atype: <type>%0Alinks: [ <link to paper pdf or doi>, ... ]%0Alink_descriptions: [ <link description>, ... ]%0A---)
 
+Tags are modified from [Samantha Robertson](https://www.samantha-robertson.com/)'s notes.\
 The paper filtering tool is inspired by [Dominik Moritz](https://www.domoritz.de)'s [publications](https://www.domoritz.de/publications/) page.
 
 <script>
