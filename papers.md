@@ -224,7 +224,7 @@ Official Reading Lists:
         <div class="paper-detail">
           {{paper.authors[0]}}
           {% for author in paper.authors offset:1 %}
-            <span style='color: lightgray'>&#9679;</span> {{author}}
+            <span style='color: lightgray; font-weight: bold'>&middot;</span> {{author}}
           {% endfor %}
           <div class="d-flex flex-wrap">
             {% for tag in paper.tags %}
